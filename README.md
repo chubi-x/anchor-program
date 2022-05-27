@@ -16,7 +16,7 @@ The focus on front end code in this prorgam was on writing tests to make sure th
 After you clone the repo run the following command in the directory:   
 `` anchor build ``
 After building anchor generates a keypair and shared object file for the program in the target/deploy directory. You need to run      
-```solana address -k <KEYPAIR PATH> ``` to generate a public key for the program. You will copy the generated public key and paste it into the ```declareid!()``` macro in
+```solana address -k <KEYPAIR PATH> ``` to generate a public key for the program. You will copy the generated public key and paste it into the ```declare_id!()``` macro in
 the ```lib.rs``` file in ```src``` folder.   
 Now you will run  ```anchor build``` again   
 Next you will run ```anchor deploy``` to deploy the program
